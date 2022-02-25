@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CZR PC Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82fa732971.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="reviews.html">REVIEWS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+    <h1>CZR PC Care</h1>
+    <h3>PC services without breaking the bank.</h3>
+        <a href="#proce" class="hero-btn">
+                <i class="fas fa-search"></i> LEARN MORE</a>
+</div>
+
+</section>
+    
+<!------- How it works ------------->
+    
+<section id="proce" class="proce">
+    <div class="protitle">
+        <h1>HOW IT WORKS</h1>
+    </div>
+    
+    <div class="row">
+        <div class="proce-col">
+            <img src="images/checklist.png">
+            <div class="layer">
+                <h3>Get instant repair prices in just<br>a few clicks.</h3>
+            </div>  
+        </div>
+        <div class="proce-col">
+            <img src="images/racing-helmet.png">
+            <div class="layer">
+                <h3>Our reliable specialist<br>travels to you.</h3>
+            </div>  
+        </div>
+        <div class="proce-col">
+            <img src="images/shield.png">
+            <div class="layer">
+                <h3>100 days warranty on repairs<br>&amp; spare parts.</h3>
+            </div>  
+        </div>
+    </div>
+    
+</section>
+
+
+<!--------- Devices ---------->
+    
+<section class="devices">
+    <div class="devtitle">
+        <h1>SERVICES</h1>
+        <h2>We offer services for the following:</h2>
+    </div>
+    <div class="row">
+        <div class="device-col">
+            <h2>Desktops</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla tincidunt lorem nec condimentum. Fusce arcu magna, finibus vitae purus eget, vehicula viverra felis.</p>
+        </div>
+        <div class="device-col">
+            <h2>Laptops</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla tincidunt lorem nec condimentum. Fusce arcu magna, finibus vitae purus eget, vehicula viverra felis.</p>
+        </div>
+        <div class="device-col">
+            <h2>Mobile Phones</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla tincidunt lorem nec condimentum. Fusce arcu magna, finibus vitae purus eget, vehicula viverra felis.</p>
+        </div>
+    </div>
+    <div class="devices">
+        <a href="services.html" class="hero-btn blue-btn"><i class="fas fa-wrench"></i> REPAIR MY DEVICE</a>
+    </div>
+</section>
+
+<!------- REVIEWS ---------->
+    
+<section class=header>
+    <div class="review">
+        <div class="revtext">
+            <h1>TESTIMONIALS</h1>
+            <h3>WE ALWAYS PUT OUR CLIENTS AS THE FIRST PRIORITY</h3>
+            <p>Here are what our clients have to say about us:</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="rev-col">
+            <img src="images/dirk.jpg">
+            <div>
+                <p>"solid di ka bibiguin niyan</p>
+                <h3>Dirk Meneses</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="rev-col">
+            <img src="images/cris.jpg">
+            <div>
+                <p>"super satisfied client here.<br>magaling, mabait at gwapo po ang technician."</p>
+                <h3>Cristina Tapales Macasiray</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <div class="review">
+            <a href="reviews.html" class="hero-btn"><i class="fas fa-comment-alt"></i> MORE REVIEWS</a>
+    </div>
+</section>
+<!------------ Inquiries ---------->
+    
+    <div class="cta">
+        <h1>GOT MORE QUESTIONS?</h1>
+        <a href="contact.html" class="hero-btn blue-btn"><i class="fas fa-phone-alt"></i> CONTACT US</a>
+    </div>
+    
+<!------------ Footer ---------->
+    
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Antipolo, Rizal, Philippines, 1870</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+</section>
+    
+    
+    
+<!-- JS for Toggle Menu -->    
+<script>
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+    
+</body>
+</html>

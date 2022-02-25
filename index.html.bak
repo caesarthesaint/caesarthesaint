@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CZR</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<img src="images/logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="">Reviews</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Others</a></li>
+				</ul>
+			</nav>
+			<img src="images/menu.png" class="menu-icon">
+		</div>
+		
+		<div class="row">
+			<div class="col-1">
+				<h2>text<br>text</h2>
+				<h3>text</h3>
+				<p>text</p>
+				<h4>text</h4>
+				<button type="button">Proceed<img src="images/next.png"></button>
+			</div>
+			<div class="col-2">
+			
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>

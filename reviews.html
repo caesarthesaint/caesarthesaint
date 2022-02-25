@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CZR PC Care - REVIEWS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82fa732971.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="review-sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="reviews.html">REVIEWS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>REVIEWS</h1> 
+    </section>
+    
+<!------- REVIEWS ---------->
+    
+<section class=header>
+    <div class="review-main">
+        <div class="revtext-main">
+            <h3>WE ALWAYS PUT OUR CLIENTS AS THE FIRST PRIORITY</h3>
+            <p>Here are what our clients have to say about us:</p>
+            
+            <div class="container">
+                <div class="indicator">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+                <div class="testimonial">
+                        <div class="slide-row" id="slide">
+                            <div class="slide-col">
+                            <div class="user-text">
+                                <p>I am really grateful to sir Fran for giving us great service! He is very knowledgeable, provides the accurate insight and even guidance into what would best suit our needs. I would highly recommend CZR PC Care and beyond doubt give an excellent rating. Keep up the good work!</p>
+                                <h3>Eunice</h3>
+                                <p>CEO, HappyTummy.eu</p>
+                            </div>
+                            <div class="user-img">
+                                <img src="images/eunice.jpg">
+                            </div>
+</div>
+                            <div class="slide-col">
+                            <div class="user-text">
+                                <p>Solid! Di ka bibiguin niyan.</p>
+                                <h3>Dirk</h3>
+                                <p>CEO, MotorVape Inc.</p>
+                            </div>
+                            <div class="user-img">
+                                <img src="images/dirk.jpg">
+                            </div>
+</div>
+                            <div class="slide-col">
+                            <div class="user-text">
+                                <p>Super satisfied client here. Magaling, mabait at gwapo po ang technician.</p>
+                                <h3>Cristina</h3>
+                                <p>Chief Nursing Exec., St. Lukes Medical Center</p>
+                            </div>
+                            <div class="user-img">
+                                <img src="images/cris.jpg">
+                            </div>
+</div>
+                            <div class="slide-col">
+                            <div class="user-text">
+                                <p>Sinuggest ng friend ko to when I told her na nasira laptop ko and I'm really glad na I trusted her advice kasi grabe, di kayo madidisapoint, their service is worth your money.</p>
+                                <h3>Crystal</h3>
+                                <p>CEO, Naginanse Comics</p>
+                            </div>
+                            <div class="user-img">
+                                <img src="images/crystal.jpg">
+                            </div>
+</div>
+                            <div class="slide-col">
+                            <div class="user-text">
+                                <p>Technician is very accommodating, and even gave advice on how to fix certain problems na pwede kong maencounter in the future.</p>
+                                <h3>Izza</h3>
+                                <p>Social Media Influencer</p>
+                            </div>
+                            <div class="user-img">
+                                <img src="images/izza.jpg">
+                            </div>
+</div>
+                            <div class="slide-col">
+                            <div class="user-text">
+                                <p>Tbh I was hesitant to try this out pero good thing I did. Would definitely come back next time magka-issue ulit PC ko.</p>
+                                <h3>Peter</h3>
+                                <p>CEO, Uplive</p>
+                            </div>
+                            <div class="user-img">
+                                <img src="images/peter.jpg">
+                            </div>
+</div>
+                            <div class="slide-col">
+                            <div class="user-text">
+                                <p>Repaired my laptop in one day and shipped it the next. Impressive and fast service! Also, Great communication. Email status reports and even a phone call to discuss the diagnostic results.</p>
+                                <h3>Ace</h3>
+                                <p>Software Analyst</p>
+                            </div>
+                            <div class="user-img">
+                                <img src="images/ace.jpg">
+                            </div>
+</div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  
+    
+    
+<!----- JS for Review Btn -----> 
+
+<script>
+    
+    var btn = document.getElementsByClassName("btn");
+    var slide = document.getElementById("slide");
+    
+    btn[0].onclick = function(){
+        slide.style.transform = "translateX(0px)";
+        for (i=0;i<7;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[1].onclick = function(){
+        slide.style.transform = "translateX(-800px)";
+        for (i=0;i<7;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[2].onclick = function(){
+        slide.style.transform = "translateX(-1600px)";
+        for (i=0;i<7;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[3].onclick = function(){
+        slide.style.transform = "translateX(-2400px)";
+        for (i=0;i<7;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[4].onclick = function(){
+        slide.style.transform = "translateX(-3200px)";
+        for (i=0;i<7;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[5].onclick = function(){
+        slide.style.transform = "translateX(-4000px)";
+        for (i=0;i<7;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+    btn[6].onclick = function(){
+        slide.style.transform = "translateX(-4800px)";
+        for (i=0;i<7;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active");
+    }
+
+</script> 
+    
+<!------------ Footer ---------->
+    
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Antipolo, Rizal, Philippines, 1870</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+</section>
+    
+    
+    
+<!-- JS for Toggle Menu -->    
+<script>
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+       
+
+</body>
+</html>

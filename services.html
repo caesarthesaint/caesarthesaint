@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CZR PC Care - SERVICES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82fa732971.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="services-sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="reviews.html">REVIEWS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>OUR SERVICES</h1> 
+    </section>
+    
+<!------------  SERVICES ---------->
+
+<section class="devices">
+    <div class="devtitle">
+        <h1>SERVICES</h1>
+        <h2>We offer services for the following:</h2>
+    </div>
+    <div class="row">       
+            <a class="device-col" href="services-desktop.html">
+                <h2>Desktops</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla tincidunt lorem nec condimentum. Fusce arcu magna, finibus vitae purus eget, vehicula viverra felis.</p>
+            </a>
+            <a class="device-col" href="services-laptop.html">
+                <h2>Laptops</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla tincidunt lorem nec condimentum. Fusce arcu magna, finibus vitae purus eget, vehicula viverra felis.</p>
+            </a>
+            <a class="device-col" href="services-phone.html">
+                <h2>Mobile Phones</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fringilla tincidunt lorem nec condimentum. Fusce arcu magna, finibus vitae purus eget, vehicula viverra felis.</p>
+            </a>
+    </div>  
+</section>
+<!------------ Footer ---------->
+    
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Antipolo, Rizal, Philippines, 1870</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+</section>
+    
+    
+    
+<!-- JS for Toggle Menu -->    
+<script>
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+    
+</body>
+</html>
